@@ -68,7 +68,7 @@ S_ruedenberg = ruedenberg.overlap(1, 1, 0, 0, 0, 1.0, 1.0, R)
 S_roothaan = roothaan.overlap_1s1s(R, 1.0, 1.0)
 print(f"Difference: {abs(S_ruedenberg - S_roothaan):.2e}")
 ```
-
+or run `example.py`. 
 ## Accuracy and Validation
 
 The implementation has been extensively validated against Roothaan's analytical formulas:
@@ -126,10 +126,10 @@ The implementation follows the analytical expressions derived by Silver and Rued
 - Kahan summation for numerical stability
 
 Key equations:
-- **Homodiatomic**: S = exp(-ρ) × Σ A(v) × (2ρ)^v
-- **Heterodiatomic**: S = N × Σ f_μ × g_μ × (ρ_A - ρ_B)^μ
+- **Homodiatomic**: $S = e^{-\rho} × \sum A(v) × (2ρ)^v$
+- **Heterodiatomic**: $S = N × \sum f_{\mu} \times g_{\mu} × (\rho_A - \rho_B)^{\mu}$
 
-Where ρ = ζR and N is the normalization factor.
+Where $\rho = \zeta R$ and $N$ is the normalization factor.
 
 ### Roothaan Approximations
 
