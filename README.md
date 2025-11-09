@@ -20,7 +20,7 @@ A high-precision Python implementation of Ruedenberg's analytical expressions fo
 ### From GitHub
 
 ```bash
-git clone https://github.com/yourusername/ruedenberg_slater_overlaps.git
+git clone https://github.com/BLZ11/ruedenberg_slater_overlaps.git
 cd ruedenberg_slater_overlaps
 pip install -e .
 ```
