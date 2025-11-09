@@ -25,7 +25,8 @@ from .roothaan import (
     overlap_1s2s,
     overlap_2s2p,
     overlap_2p2p_sigma,
-    overlap_2p2p_pi
+    overlap_2p2p_pi,
+    overlap_1s2p
 )
 
 __version__ = "1.0.0"
@@ -40,5 +41,6 @@ __all__ = [
     'overlap_1s2s',
     'overlap_2s2p',
     'overlap_2p2p_sigma',
-    'overlap_2p2p_pi'
+    'overlap_2p2p_pi',
+    'overlap_1s2p'
 ]
