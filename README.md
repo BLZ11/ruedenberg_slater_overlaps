@@ -1,5 +1,9 @@
 # Ruedenberg Slater Overlap Integrals
 
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub issues](https://img.shields.io/github/issues/YOUR_USERNAME/ruedenberg_slater_overlaps)](https://github.com/BLZ11/ruedenberg_slater_overlaps/issues)
+
 A high-precision Python implementation of Ruedenberg's analytical expressions for overlap integrals between Slater-type atomic orbitals, with validation against Roothaan's formulations.
 
 ## Features
